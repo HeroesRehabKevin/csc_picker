@@ -31,9 +31,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   /// Variables to store country state city data in onChanged method.
-  String countryValue = "";
-  String stateValue = "";
-  String cityValue = "";
+  String? countryValue = "";
+  String? stateValue = "";
+  String? cityValue = "";
   String address = "";
 
   @override
@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   onCountryChanged: (value) {
                     setState(() {
                       ///store value in country variable
-                      countryValue = value!;
+                      countryValue = value;
                     });
                   },
 
@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   onStateChanged: (value) {
                     setState(() {
                       ///store value in state variable
-                      stateValue = value!;
+                      stateValue = value;
                     });
                   },
 
@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   onCityChanged: (value) {
                     setState(() {
                       ///store value in city variable
-                      cityValue = value!;
+                      cityValue = value;
                     });
                   },
 
