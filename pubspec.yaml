@@ -1,10 +1,12 @@
-name: csc_picker
+name: csc_picker_heroes
 description: A flutter package to display list of Countries, States and Cities depends on Selected, also you can search country, state, and city all around the world.
-version: 0.2.7
-homepage: https://github.com/altafc22/csc_picker
+version: 0.1.0
+homepage: https://github.com/HeroesRehabKevin/csc_picker
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
